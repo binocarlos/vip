@@ -34,7 +34,8 @@ var httpRouter = vipcontroller({
 	ttl:10
 }, function(){
 
-	// here we start the router - this code will only ever have one copy running across the cluster
+	// here we start the router
+	// this code will only ever have one copy running across the cluster
 
 })
 
