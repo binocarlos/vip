@@ -29,6 +29,6 @@
     "etcdjs": "^1.1.1"
   },
   "dependencies": {
-    "locked": "^1.0.3"
+    "locked": "^2.0.0"
   }
 }
