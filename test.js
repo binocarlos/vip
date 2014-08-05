@@ -80,7 +80,7 @@ tape('competing functions', function(t){
 
     setTimeout(function(){
 
-      t.equal(Object.keys(hitfns), 2, 'only 2 functions run')
+      t.equal(Object.keys(hitfns).length, 2, 'only 2 functions run')
       lock1.stop()
       lock2.stop()
       lock3.stop()
