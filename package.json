@@ -1,0 +1,34 @@
+{
+  "name": "vip",
+  "version": "0.0.1",
+  "description": "very important process - run a single function across a cluster",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/vip.git"
+  },
+  "keywords": [
+    "etcd",
+    "consensus",
+    "lock",
+    "distributed",
+    "brokerless"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/vip/issues"
+  },
+  "homepage": "https://github.com/binocarlos/vip",
+  "devDependencies": {
+    "tape": "^2.13.1",
+    "async": "^0.9.0",
+    "etcdjs": "^1.1.1"
+  },
+  "dependencies": {
+    "locked": "^1.0.2"
+  }
+}
