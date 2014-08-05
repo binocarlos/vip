@@ -1,7 +1,7 @@
 {
   "name": "vip",
   "version": "0.1.0",
-  "description": "very important process - run a single function across a cluster",
+  "description": "very important process - use etcd to avoid a split brain across a cluster",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
