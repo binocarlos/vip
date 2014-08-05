@@ -1,6 +1,6 @@
 {
   "name": "vip",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "very important process - run a single function across a cluster",
   "main": "index.js",
   "scripts": {
