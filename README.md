@@ -52,11 +52,11 @@ httpRouter.start()
 
 ## api
 
-### `var vipcontroller = vip(etcdhosts)`
+#### `var vipcontroller = vip(etcdhosts)`
 
 Create a controller that is connected to some etcd peers
 
-### `var service = vipcontroller(opts, fn)`
+#### `var service = vipcontroller(opts, fn)`
 
 Create a new candidate function - opts is an object with the following keys:
 
@@ -69,13 +69,13 @@ fn is executed once and only when the node is elected as the current leader for 
 
 ## events
 
-### `service.on('select', function(value){})`
+#### `service.on('select', function(value){})`
 
 This event is triggered when the node has been elected and it's value distributed to the cluster.
 
 You can run logic in this function that should only be running on one server at a time.
 
-### `service.on('change', function(value, nodeid){})`
+#### `service.on('change', function(value, nodeid){})`
 
 This event is triggered when the lock value has changed regardless of which node was elected.
 
