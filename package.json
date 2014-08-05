@@ -1,6 +1,6 @@
 {
   "name": "vip",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "very important process - use etcd to avoid a split brain across a cluster",
   "main": "index.js",
   "scripts": {
