@@ -68,13 +68,17 @@ fn is executed once and only when the node is elected as the current leader for 
 
 ## events
 
-### `service.on('select', function(value, id){})`
+### `service.on('select', function(value){})
 
-emitted if this node is elected for the service across the cluster
+This event is triggered when the node has been elected and it's value distributed to the cluster.
 
-### `service.on('stop', function(value, id){})`
+You can run logic in this function that should only be running on one server at a time.
 
-emitted when any node is elected across the cluster
+### `service.on('change', function(value, nodeid){})
+
+This event is triggered when the lock value has changed regardless of which node was elected.
+
+The nodeid is of the elected machine is passed as the second argument.
 
 ## license
 
