@@ -1,6 +1,8 @@
 vip
 ---
 
+[status: not maintained] - I've started using consul which has a [leader election](http://www.consul.io/docs/guides/leader-election.html) module
+
 vip (very important process) is a module that uses a distributed lock module [locked](https://github.com/binocarlos/locked) to ensure that only one copy of a function is running across a cluster
 
 This is useful to avoid a split brain when running some kind of cluster wide co-ordination process
